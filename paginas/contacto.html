@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Bakery</title>
+
+    <link rel="shortcut icon" href="../multimedia/Second Bakery.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos2.css"/>
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+        <img width="100px" src="../multimedia/Second Bakery.png" alt="logo Second Bakery">
+        <h1 class="nombrelogo"> Second Bakery </h1>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../paginas/sobre nosotros.html">Nosotros</a></li>
+                <li><a href="../paginas/productos.html">Productos</a></li>
+                <li><a href="../paginas/formas de pago.html">Formas de Pago</a></li>
+                <li><a href="../paginas/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <Div class="contacto">
+            <h1>Contáctanos</h1>
+            <h2>Para dejarnos un mensaje por favor completa el siguiente formulario</h2>
+        </Div>
+
+        <form class="sub__contacto">
+            <p>Ingresa tus datos en el formulario</p>
+                <div class="sub__contacto--1">
+            <label for="nombreyapellido">Nombre y Apellido</label>
+                <input type="text" name="nombreyapellido">
+            </div>
+            <div class="sub__contacto--2">
+            <label for="correo"> Correo Electronico</label>
+                <input type="email" name="correo" >
+            </div>
+            <div class="sub__contacto--3">
+            <label for="celular">Celular de Contacto</label>
+                <input type="text" name="celular">
+            </div> 
+            <div class="sub__contacto--4">
+            <label for="mensaje">Mensaje</label>    
+                <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>   
+            </div>
+            <div class="sub__contacto--5">
+            <label for="sexo">Indicanos tu sexo</label>
+                <input type="radio" value="F" name="sexo"> F
+                <input type="radio" value="M" name="sexo"> M
+                <input type="radio" value="Prefiero no decir" name="sexo"> Prefiero no decir
+            </div>
+            <div class="sub__contacto--6">        
+            <label for="terminos">¿Acepta los terminos y condiciones?</label>
+                <input type="checkbox" value="1" name="terminos" required> Acepto. He leido los terminos.
+                <input type="checkbox" value="2" name="terminos"> No Acepto. 
+            </div>
+            <div class="sub__contacto--7">
+            <label for="pais">¿Que nacionalidad perteneces?</label>
+                <select name="pais">
+                    <option value="Ven">Venezolano</option>
+                    <option value="Arg">Argentino</option>
+                    <option value="Esp">Español</option>
+                    <option value="Chi">Chileno</option>
+                </select>
+            </div>
+            <div class="sub__contacto--8">
+                <input type="submit" value="Enviar Solicitud">
+                <input type="reset" value="Reiniciar">
+                <input type="button" value="Catchap">
+            </div>
+        
+
+        </form>
+
+        <Section class="tresformas">
+            <div class="container">
+            <h2>3 Formas de Comprar</h2>
+            <div class="3formascomprar">
+            <div class="bloque">
+                <h3>En locales</h3>
+                <button>+ Info</button>   
+            </div>
+            <div class="bloque">
+                <h3>Order&Pickup</h3>
+                <button>+ Info</button>
+            </div>
+            <div class="bloque">
+                <h3>Delivery</h3>
+                <button>+ Info</button>
+            </div>
+            </div>
+        </div>
+        </Section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; SecondBakery 2022</p>
+        </div>
+    </footer>
+</body>
+</html>
