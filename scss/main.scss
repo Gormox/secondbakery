@@ -1,0 +1,50 @@
+@import "generales";
+@import "header";
+@import "index";
+
+/* extends */
+.cajaGrande{
+    height: 200px;
+    width: 1500px;
+    background-color: red;
+    padding: 40px;
+    color: black;
+}
+
+.cajaMediana{
+    @extend .cajaGrande;
+    width: 750px;
+    padding: 30px;
+}
+
+.cajaPequena{
+    @extend .cajaGrande;
+    width: 300px;
+    padding: 10px;
+}
+
+/* mixins */
+
+@mixin sizes ($ancho, $alto){
+        height: $alto;
+        width: $ancho;
+}    
+
+.imange2{
+    @include sizes(300px,150px )
+}
+
+/* mixin sin parametros */
+
+@mixin flexbase ($display, $direction, $wrap) {
+    display: $display;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+
+.box{
+    @include flexbase(flex, column , nowrap )
+
+}
+
+}
+

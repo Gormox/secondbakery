@@ -1,0 +1,73 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(12, 11, 11);
+    height: 20%;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    
+}
+
+header{
+    img {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 120px;
+        width: 140px;
+        border-radius: 15px;
+        padding: 5px;
+        margin-left: 35px;
+        transition: all 1s;
+        &:hover{
+            transform: rotate(10deg); /* rotar el logo */
+        }
+    }
+    .nombrelogo{
+    display: flex;
+    font-weight: bold;
+    margin-top: 0;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    } 
+    nav{
+    display: flex;
+    align-items: center;
+    font-size: 1.4em;
+    height: 50px;
+    margin-top: 120px;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        list-style-type: none;
+        padding: 0;
+    }
+    a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1.0em;
+    padding: 5px 12px;
+    &:hover{
+        color: red;
+    }
+    }
+}
+
+.menu{ 
+    li{
+    display: inline-block;
+        a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+        }
+    }
+}
+ 
