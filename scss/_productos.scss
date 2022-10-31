@@ -1,0 +1,343 @@
+.nuestros-productos{
+    text-align: center;
+    background-color: white;
+    color: white;
+    .container{
+        display: grid;
+        grid-template-columns: repeat(4) 300px;
+        grid-template-rows: 250px;
+        grid-template-areas:
+        "pies tortas galletas dulces"
+        ;
+        grid-column-gap: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+    }
+    .pies{
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+        
+    }
+    .tortas{
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .galletas{
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .dulces{
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+.titulo{
+    background-color: white;
+}
+
+.product{
+    background-color: white;
+}
+
+.sub-titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 100px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+
+.pies{
+    background-image: linear-gradient(0deg,
+     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    , url("../multimedia/pieslimon.jpg");
+}
+
+.tortas{
+    background-image: linear-gradient(0deg,
+     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    , url("../multimedia/tortachoco.jpg");
+}
+
+.galletas{
+    background-image: linear-gradient(0deg,
+     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    , url("../multimedia/cookies.jpg");
+}
+
+.dulces{
+    background-image: linear-gradient(0deg,
+     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    , url("../multimedia/cheesecakefresa.jpg");
+}
+
+.subproductos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 50vh;
+    color: white;
+    background-color: rgb(128, 4, 4);
+    h2{
+        font-size: 7em;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    h4{
+        font-size: 2em;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+}
+
+.vitrina{
+    background-color: white;
+    h4{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        font-size: 1,4em;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3) 500px;
+        grid-template-rows: 200px 200px 200px;
+        grid-template-areas:
+        "pies1 tortas1 galletas1"
+        "pies2 tortas2 galletas2"
+        "pies3 tortas3 galletas3"
+        ;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+        color: white;
+    }
+    .pies1{
+        grid-area: pies1;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .tortas1{
+        grid-area: tortas1;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .galletas1{
+        grid-area: galletas1;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .pies2{
+        grid-area: pies2;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .tortas2{
+        grid-area: tortas2;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .tortas2{
+        grid-area: tortas2;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .galletas2{
+        grid-area: galletas2;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .dulces2{
+        grid-area: dulces2;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .pies3{
+        grid-area: pies3;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .tortas3{
+        grid-area: tortas3;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .galletas3{
+        grid-area: galletas3;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .dulces3{
+        grid-area: dulces3;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .pies4{
+        grid-area: pies4;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .tortas4{
+        grid-area: tortas4;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding-left: 10px;
+        margin: 5px;
+    }
+    .galletas4{
+        grid-area: galletas4;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+    .dulces4{
+        grid-area: dulces4;
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+        padding: 10px;
+        margin: 5px;
+    }
+}
+
+.pies1{
+    background-image: 
+    url("../multimedia/pieslimon.jpg");
+}
+
+.tortas1{
+    background-image: 
+    url("../multimedia/tortachoco.jpg");
+}
+
+.galletas1{
+    background-image: 
+    url("../multimedia/cookies.jpg");
+}
+
+.pies2{
+    background-image:
+    url("../multimedia/pieslimon.jpg");
+}
+
+.tortas2{
+    background-image:
+    url("../multimedia/tortachoco.jpg");
+}
+
+.galletas2{
+    background-image:
+    url("../multimedia/cookies.jpg");
+}
+
+.dulces2{
+    background-image: 
+    url("../multimedia/cheesecakefresa.jpg");
+}
+
+.pies3{
+    background-image:
+    url("../multimedia/pieslimon.jpg");
+}
+
+.tortas3{
+    background-image: 
+    url("../multimedia/tortachoco.jpg");
+}
+
+.galletas3{
+    background-image:
+    url("../multimedia/cookies.jpg");
+}
+
+.dulces3{
+    background-image: 
+    url("../multimedia/cheesecakefresa.jpg");
+}
+
+.pies4{
+    background-image: linear-gradient(0deg,
+     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    , url("../multimedia/pieslimon.jpg");
+}
+
+.tortas4{
+    background-image: linear-gradient(0deg,
+     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    , url("../multimedia/tortachoco.jpg");
+}
+
+.galletas4{
+    background-image: linear-gradient(0deg,
+     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    , url("../multimedia/cookies.jpg");
+}

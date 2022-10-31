@@ -1,0 +1,55 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 10001;
+}
+
+.headerboot{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(12, 11, 11);
+    height: 20%;
+    padding: 10px;
+}
+
+.imagenboot{
+padding-bottom: 10px;
+}
+
+.bordes{
+    display: flex;
+    flex-direction: column;
+    border:solid black;
+    padding: 25px;
+    background-color: green;
+    color: rgb(240, 231, 231);
+    
+}
+
+.form{
+    display: flex;
+    align-items: center;   
+    padding: 30px;
+}
+
+.contacto{
+    text-align: center;
+    h1{
+        padding-top: 10px;
+    }
+}
+
+.sub__contacto{
+    text-align: right;
+    margin: 10px;
+    border: solid   black;
+    display: inline-block;
+    position: relative;
+    left: 600px;
+    background-color: aliceblue;
+}
+
+.tresformas .tresformas__comprar{
+    margin: 0%;
+    padding: 20px;
+}

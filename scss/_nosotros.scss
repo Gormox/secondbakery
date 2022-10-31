@@ -1,0 +1,60 @@
+.nosotros{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 50vh;
+    color: white;
+    background-color: rgb(128, 4, 4);
+    font-size: 2em;
+    }   
+
+.sub__nosotros .container{
+    display: grid;
+    grid-template-columns: 600px;
+    grid-template-rows: 100px 500px;
+    grid-template-areas:
+    "titulo titulo"
+    "nosotros nosotros";
+    color: black;
+}
+
+.titulonosotros{
+    grid-area: titulo;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 4em;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.nosotrosp{
+    grid-area: nosotros;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+    color: black;
+    margin: 5px;
+    width: 100%;
+    span{
+        color: rgb(180, 23, 23);
+        font-style: oblique;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+    }
+
+}
+
+.nosotrosimg img{
+    display: flex;
+    grid-area: nosotros;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: 10px;
+    border-radius: 10px;
+    width: 80vh;
+}
