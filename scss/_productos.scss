@@ -1,7 +1,7 @@
 .nuestros-productos{
     text-align: center;
-    background-color: white;
-    color: white;
+    background-color: $colorPrincipal;
+    color: $colorPrincipal;
     .container{
         display: grid;
         grid-template-columns: repeat(4) 300px;
@@ -46,11 +46,11 @@
 }
 
 .titulo{
-    background-color: white;
+    background-color: $colorPrincipal;
 }
 
 .product{
-    background-color: white;
+    background-color: $colorPrincipal;
 }
 
 .sub-titulo{
@@ -63,31 +63,31 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-top: 0;
     margin-bottom: 10px;
-    background-color: white;
+    background-color: $colorPrincipal;
 }
 
 
 .pies{
     background-image: linear-gradient(0deg,
-     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+     $colorimg,$colorimg )
     , url("../multimedia/pieslimon.jpg");
 }
 
 .tortas{
     background-image: linear-gradient(0deg,
-     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    $colorimg,$colorimg )
     , url("../multimedia/tortachoco.jpg");
 }
 
 .galletas{
     background-image: linear-gradient(0deg,
-     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    $colorimg,$colorimg )
     , url("../multimedia/cookies.jpg");
 }
 
 .dulces{
     background-image: linear-gradient(0deg,
-     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    $colorimg,$colorimg )
     , url("../multimedia/cheesecakefresa.jpg");
 }
 
@@ -98,8 +98,8 @@
     text-align: center;
     flex-direction: column;
     height: 50vh;
-    color: white;
-    background-color: rgb(128, 4, 4);
+    color: $colorPrincipal;
+    background-color: $colorseccion;
     h2{
         font-size: 7em;
         margin-top: 0px;
@@ -116,7 +116,7 @@
 }
 
 .vitrina{
-    background-color: white;
+    background-color: $colorPrincipal;
     h4{
         display: flex;
         flex-direction: column;
@@ -137,7 +137,7 @@
         margin-left: 100px;
         margin-right: 100px;
         margin-bottom: 20px;
-        color: white;
+        color: $colorPrincipal;
     }
     .pies1{
         grid-area: pies1;
@@ -326,18 +326,18 @@
 
 .pies4{
     background-image: linear-gradient(0deg,
-     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    $colorimg,$colorimg )
     , url("../multimedia/pieslimon.jpg");
 }
 
 .tortas4{
     background-image: linear-gradient(0deg,
-     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    $colorimg,$colorimg )
     , url("../multimedia/tortachoco.jpg");
 }
 
 .galletas4{
     background-image: linear-gradient(0deg,
-     rgba(0,0,0,0.5),rgba(0,0,0,0.5) )
+    $colorimg,$colorimg )
     , url("../multimedia/cookies.jpg");
 }

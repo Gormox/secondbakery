@@ -4,8 +4,8 @@
     justify-content: center;
     flex-direction: column;
     height: 50vh;
-    color: white;
-    background-color: rgb(128, 4, 4);
+    color: $colorPrincipal;
+    background-color: $colorseccion;
     font-size: 2em;
     }   
 
@@ -16,14 +16,14 @@
     grid-template-areas:
     "titulo titulo"
     "nosotros nosotros";
-    color: black;
+    color: $colorSecundario;
 }
 
 .titulonosotros{
     grid-area: titulo;
     display: flex;
     justify-content: center;
-    color: black;
+    color: $colorSecundario;
     font-size: 4em;
     font-weight: bold;
     font-style: oblique;
@@ -36,11 +36,11 @@
     align-items: center;
     font-size: 3em;
     font-weight: bold;
-    color: black;
+    color: $colorSecundario;
     margin: 5px;
     width: 100%;
     span{
-        color: rgb(180, 23, 23);
+        color: $colorseccion;
         font-style: oblique;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: center;

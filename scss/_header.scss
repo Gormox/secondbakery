@@ -1,7 +1,7 @@
 #header{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(12, 11, 11);
+    background-color: $colorSecundario;
     height: 20%;
     padding: 10px;
     position: sticky;
@@ -29,7 +29,7 @@ header{
     display: flex;
     font-weight: bold;
     margin-top: 0;
-    color: white;
+    color: $colorPrincipal;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     } 
     nav{
@@ -51,11 +51,11 @@ header{
     flex-direction: row;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: $colorPrincipal;
     font-size: 1.0em;
     padding: 5px 12px;
     &:hover{
-        color: red;
+        color: $colorterciario;
     }
     }
 }
@@ -65,7 +65,7 @@ header{
     display: inline-block;
         a{
         text-decoration: none;
-        color: white;
+        color: $colorPrincipal;
         padding: 20px;
         }
     }

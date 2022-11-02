@@ -1,3 +1,12 @@
+$colorPrincipal: rgb(253, 253, 253);
+$colorSecundario: rgb(12, 11, 11);
+$colorcontacto: green;  
+$colorimg:rgba(0,0,0,0.5) ;
+$colorButtonprimario: rgb(73, 26, 184);
+$colorButtonsecundario: rgb(120, 38, 197) ;
+$colorterciario: red;
+$colorfooter: rgb(100, 100, 100);
+$colorseccion: rgb(128, 4, 4);
 
 @import "generales";
 @import "header";
@@ -7,6 +16,9 @@
 @import "formaspago";
 @import "contacto";
 @import "queries";
+
+
+
 
 /* extends */
 .cajaGrande{
