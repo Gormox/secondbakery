@@ -58,10 +58,13 @@ button:hover {
   justify-content: space-between;
   background-color: rgb(12, 11, 11);
   height: 20%;
-  padding: 10px;
+  padding: 7px;
   position: sticky;
   top: 0;
   z-index: 10000px;
+}
+#header nav {
+  margin-top: 125px;
 }
 
 header img {
@@ -417,10 +420,11 @@ footer p {
 }
 .vitrina .pies1 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
   margin: 0;
+  font-weight: bold;
 }
 .vitrina .tortas1 {
   grid-area: tortas1;
@@ -441,9 +445,10 @@ footer p {
 }
 .vitrina .tortas1 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 .vitrina .galletas1 {
@@ -465,9 +470,10 @@ footer p {
 }
 .vitrina .galletas1 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 .vitrina .pies2 {
@@ -489,9 +495,10 @@ footer p {
 }
 .vitrina .pies2 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 .vitrina .tortas2 {
@@ -513,9 +520,10 @@ footer p {
 }
 .vitrina .tortas2 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 .vitrina .tortas2 {
@@ -537,9 +545,10 @@ footer p {
 }
 .vitrina .tortas2 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 .vitrina .galletas2 {
@@ -561,9 +570,10 @@ footer p {
 }
 .vitrina .galletas2 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 .vitrina .dulces2 {
@@ -585,9 +595,10 @@ footer p {
 }
 .vitrina .dulces2 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 .vitrina .pies3 {
@@ -609,9 +620,10 @@ footer p {
 }
 .vitrina .pies3 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 .vitrina .tortas3 {
@@ -633,9 +645,10 @@ footer p {
 }
 .vitrina .tortas3 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 .vitrina .galletas3 {
@@ -657,9 +670,10 @@ footer p {
 }
 .vitrina .galletas3 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 .vitrina .dulces3 {
@@ -681,9 +695,10 @@ footer p {
 }
 .vitrina .dulces3 p {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   color: rgb(253, 253, 253);
   font-size: 20px;
+  font-weight: bold;
   margin: 0;
 }
 
