@@ -7,9 +7,10 @@ $colorButtonsecundario: rgb(120, 38, 197) ;
 $colorterciario: red;
 $colorfooter: rgb(100, 100, 100);
 $colorseccion: rgb(128, 4, 4);
+$tamanoTotal: 100px;
+$eventos: secondbakery;
 
 @import "generales";
-@import "header";
 @import "index";
 @import "nosotros";
 @import "productos";

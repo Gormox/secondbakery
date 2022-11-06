@@ -18,8 +18,10 @@
         nav{
             flex-direction: column;
             align-items: center;
-            margin-top: 0;
+            font-size: 1em;
+            margin: 0;
             height: 0;
+            padding: 0;
         }
     }
     header{
@@ -30,10 +32,17 @@
         nav{
             flex-direction: column;
             align-items: center;
-            margin-top: 0;
+            font-size: 1em;
+            margin-top: 0px;
             height: 0;
             padding: 0;
         }
+    }
+
+    .nosotros{
+        h1{
+            font-size: 3em;
+        } 
     }
     .sub__nosotros{ 
         .container{
@@ -87,9 +96,6 @@
             justify-content: stretch;
             padding: 0;
             padding-top: 5px;
-        }
-        header .nombrelogo{
-            margin: 0;
             nav{
                 flex-direction: column;
                 align-items: center;
@@ -97,6 +103,10 @@
                 height: 0;
     
             }
+        }
+        header .nombrelogo{
+            margin: 0;
+            
         }
         .headerboot{
             flex-direction: column;

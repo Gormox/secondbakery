@@ -14,34 +14,39 @@
         margin-right: 100px;
         margin-bottom: 20px;
     }
-    .pies{
+
+    .cajasproduct{
         background-repeat: no-repeat;
         background-size: cover; 
         background-position: center center;
         padding: 10px;
         margin: 5px;
-        
+
+    }
+
+    .tarta{
+        @extend .cajasproduct;
+        background-image: linear-gradient(0deg,
+        $colorimg,$colorimg )
+        , url("../multimedia/pieslimon.jpg");
     }
     .tortas{
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: center center;
-        padding: 10px;
-        margin: 5px;
+        @extend .cajasproduct;
+        background-image: linear-gradient(0deg,
+        $colorimg,$colorimg )
+        , url("../multimedia/tortachoco.jpg");
     }
     .galletas{
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: center center;
-        padding: 10px;
-        margin: 5px;
+        @extend .cajasproduct;
+        background-image: linear-gradient(0deg,
+        $colorimg,$colorimg )
+        , url("../multimedia/cookies.jpg");
     }
     .dulces{
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: center center;
-        padding: 10px;
-        margin: 5px;
+        @extend .cajasproduct;
+        background-image: linear-gradient(0deg,
+        $colorimg,$colorimg )
+        , url("../multimedia/cheesecakefresa.jpg");
     }
 }
 
@@ -67,7 +72,7 @@
 }
 
 
-.pies{
+.tarta{
     background-image: linear-gradient(0deg,
      $colorimg,$colorimg )
     , url("../multimedia/pieslimon.jpg");
@@ -146,6 +151,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .tortas1{
         grid-area: tortas1;
@@ -154,6 +175,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .galletas1{
         grid-area: galletas1;
@@ -162,6 +199,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .pies2{
         grid-area: pies2;
@@ -170,6 +223,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .tortas2{
         grid-area: tortas2;
@@ -178,6 +247,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .tortas2{
         grid-area: tortas2;
@@ -186,6 +271,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .galletas2{
         grid-area: galletas2;
@@ -194,6 +295,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .dulces2{
         grid-area: dulces2;
@@ -202,6 +319,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .pies3{
         grid-area: pies3;
@@ -210,6 +343,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .tortas3{
         grid-area: tortas3;
@@ -218,6 +367,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .galletas3{
         grid-area: galletas3;
@@ -226,6 +391,22 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
     .dulces3{
         grid-area: dulces3;
@@ -234,94 +415,89 @@
         background-position: center center;
         padding: 10px;
         margin: 5px;
-    }
-    .pies4{
-        grid-area: pies4;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: center center;
-        padding: 10px;
-        margin: 5px;
-    }
-    .tortas4{
-        grid-area: tortas4;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: center center;
-        padding-left: 10px;
-        margin: 5px;
-    }
-    .galletas4{
-        grid-area: galletas4;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: center center;
-        padding: 10px;
-        margin: 5px;
-    }
-    .dulces4{
-        grid-area: dulces4;
-        background-repeat: no-repeat;
-        background-size: cover; 
-        background-position: center center;
-        padding: 10px;
-        margin: 5px;
+        border-radius: 10px;
+        border: solid $colorSecundario;
+        h3{
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+            color: $colorPrincipal;
+            font-weight: bold;
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            color: $colorPrincipal ;
+            font-size: 20px;
+            margin: 0;
+        }
     }
 }
 
 .pies1{
-    background-image: 
-    url("../multimedia/pieslimon.jpg");
+    background-image: linear-gradient(0deg,
+     $colorimg,$colorimg )
+    , url("../multimedia/cheesecakestrawberry.jpg");
 }
 
 .tortas1{
-    background-image: 
-    url("../multimedia/tortachoco.jpg");
+    background-image:linear-gradient(0deg,
+    $colorimg,$colorimg ) 
+    , url("../multimedia/fluffycakes.jpg");
 }
 
 .galletas1{
-    background-image: 
-    url("../multimedia/cookies.jpg");
+    background-image: linear-gradient(0deg,
+    $colorimg,$colorimg )
+    , url("../multimedia/galletas.jpg");
 }
 
 .pies2{
-    background-image:
-    url("../multimedia/pieslimon.jpg");
+    background-image:linear-gradient(0deg,
+    $colorimg,$colorimg )
+    , url("../multimedia/cheesechoco.jpg");
 }
 
 .tortas2{
-    background-image:
-    url("../multimedia/tortachoco.jpg");
+    background-image:linear-gradient(0deg,
+    $colorimg,$colorimg )
+    , url("../multimedia/chococake.jpg");
 }
 
 .galletas2{
-    background-image:
-    url("../multimedia/cookies.jpg");
+    background-image:linear-gradient(0deg,
+    $colorimg,$colorimg )
+    , url("../multimedia/secondcookies.jpg");
 }
 
 .dulces2{
-    background-image: 
-    url("../multimedia/cheesecakefresa.jpg");
+    background-image: linear-gradient(0deg,
+    $colorimg,$colorimg ) 
+    , url("../multimedia/cheesecakefresa.jpg");
 }
 
 .pies3{
-    background-image:
-    url("../multimedia/pieslimon.jpg");
+    background-image:linear-gradient(0deg,
+    $colorimg,$colorimg )
+    , url("../multimedia/pieslimon.jpg");
 }
 
 .tortas3{
-    background-image: 
-    url("../multimedia/tortachoco.jpg");
+    background-image: linear-gradient(0deg,
+    $colorimg,$colorimg )
+    , url("../multimedia/tortachoco.jpg");
 }
 
 .galletas3{
-    background-image:
-    url("../multimedia/cookies.jpg");
+    background-image:linear-gradient(0deg,
+    $colorimg,$colorimg )
+    , url("../multimedia/cookies.jpg");
 }
 
 .dulces3{
-    background-image: 
-    url("../multimedia/cheesecakefresa.jpg");
+    background-image: linear-gradient(0deg,
+    $colorimg,$colorimg )
+    , url("../multimedia/cheesecakefresa.jpg");
 }
 
 .pies4{
