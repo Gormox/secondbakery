@@ -73,24 +73,40 @@
 
 
 .tarta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(0deg,
      $colorimg,$colorimg )
     , url("../multimedia/pieslimon.jpg");
 }
 
 .tortas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(0deg,
     $colorimg,$colorimg )
     , url("../multimedia/tortachoco.jpg");
 }
 
 .galletas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(0deg,
     $colorimg,$colorimg )
     , url("../multimedia/cookies.jpg");
 }
 
 .dulces{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: linear-gradient(0deg,
     $colorimg,$colorimg )
     , url("../multimedia/cheesecakefresa.jpg");
@@ -125,6 +141,7 @@
     h4{
         display: flex;
         flex-direction: column;
+        text-align: center;
         margin-left: 40px;
         font-size: 1,4em;
     }
@@ -145,6 +162,10 @@
         color: $colorPrincipal;
     }
     .pies1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: pies1;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -170,6 +191,10 @@
         }
     }
     .tortas1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: tortas1;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -195,6 +220,10 @@
         }
     }
     .galletas1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: galletas1;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -220,6 +249,10 @@
         }
     }
     .pies2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: pies2;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -245,6 +278,10 @@
         }
     }
     .tortas2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: tortas2;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -270,6 +307,10 @@
         }
     }
     .tortas2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: tortas2;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -295,6 +336,10 @@
         }
     }
     .galletas2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: galletas2;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -320,6 +365,10 @@
         }
     }
     .dulces2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: dulces2;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -345,6 +394,10 @@
         }
     }
     .pies3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: pies3;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -370,6 +423,10 @@
         }
     }
     .tortas3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: tortas3;
         background-repeat: no-repeat;
         background-size: cover; 
@@ -395,6 +452,10 @@
         }
     }
     .galletas3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         grid-area: galletas3;
         background-repeat: no-repeat;
         background-size: cover; 

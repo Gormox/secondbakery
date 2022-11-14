@@ -29,6 +29,10 @@ p {
   font-size: 1.25em;
 }
 
+.parrafo {
+  font-size: 2em;
+}
+
 a {
   text-decoration: none;
   color: rgb(253, 253, 253);
@@ -67,6 +71,10 @@ button:hover {
   margin-top: 125px;
 }
 
+header {
+  display: flex;
+  flex-direction: wrap;
+}
 header img {
   display: flex;
   flex-direction: row;
@@ -149,7 +157,8 @@ header a:hover {
   padding: 10px;
 }
 .sub__principal .color {
-  color: red;
+  font-weight: bold;
+  color: rgb(128, 4, 4);
 }
 .sub__principal .article {
   font-size: 2.6em;
@@ -341,18 +350,34 @@ footer p {
 }
 
 .tarta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/pieslimon.jpg");
 }
 
 .tortas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/tortachoco.jpg");
 }
 
 .galletas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/cookies.jpg");
 }
 
 .dulces {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../multimedia/cheesecakefresa.jpg");
 }
 
@@ -386,6 +411,7 @@ footer p {
 .vitrina h4 {
   display: flex;
   flex-direction: column;
+  text-align: center;
   margin-left: 40px;
   font-size: 1, 4em;
 }
@@ -402,6 +428,10 @@ footer p {
   color: rgb(253, 253, 253);
 }
 .vitrina .pies1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: pies1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -427,6 +457,10 @@ footer p {
   font-weight: bold;
 }
 .vitrina .tortas1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: tortas1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -452,6 +486,10 @@ footer p {
   margin: 0;
 }
 .vitrina .galletas1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: galletas1;
   background-repeat: no-repeat;
   background-size: cover;
@@ -477,6 +515,10 @@ footer p {
   margin: 0;
 }
 .vitrina .pies2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: pies2;
   background-repeat: no-repeat;
   background-size: cover;
@@ -502,6 +544,10 @@ footer p {
   margin: 0;
 }
 .vitrina .tortas2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: tortas2;
   background-repeat: no-repeat;
   background-size: cover;
@@ -527,6 +573,10 @@ footer p {
   margin: 0;
 }
 .vitrina .tortas2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: tortas2;
   background-repeat: no-repeat;
   background-size: cover;
@@ -552,6 +602,10 @@ footer p {
   margin: 0;
 }
 .vitrina .galletas2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: galletas2;
   background-repeat: no-repeat;
   background-size: cover;
@@ -577,6 +631,10 @@ footer p {
   margin: 0;
 }
 .vitrina .dulces2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: dulces2;
   background-repeat: no-repeat;
   background-size: cover;
@@ -602,6 +660,10 @@ footer p {
   margin: 0;
 }
 .vitrina .pies3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: pies3;
   background-repeat: no-repeat;
   background-size: cover;
@@ -627,6 +689,10 @@ footer p {
   margin: 0;
 }
 .vitrina .tortas3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: tortas3;
   background-repeat: no-repeat;
   background-size: cover;
@@ -652,6 +718,10 @@ footer p {
   margin: 0;
 }
 .vitrina .galletas3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   grid-area: galletas3;
   background-repeat: no-repeat;
   background-size: cover;
@@ -833,6 +903,7 @@ footer p {
 
 .form {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 30px;
 }
@@ -867,17 +938,22 @@ footer p {
     justify-content: stretch;
     padding: 0;
     padding-top: 5px;
+    position: static;
   }
-  .headerboot {
+  .header {
+    position: static;
+  }
+  .header .headerboot {
     flex-direction: column;
     align-items: center;
     height: 260px;
     justify-content: stretch;
+    position: static;
   }
-  .headerboot .nombrelogo {
+  .header .headerboot .nombrelogo {
     margin: 0;
   }
-  .headerboot nav {
+  .header .headerboot nav {
     flex-direction: column;
     align-items: center;
     font-size: 1em;
@@ -941,6 +1017,7 @@ footer p {
     justify-content: stretch;
     padding: 0;
     padding-top: 5px;
+    position: static;
   }
   #header nav {
     flex-direction: column;
@@ -951,17 +1028,21 @@ footer p {
   header .nombrelogo {
     margin: 0;
   }
-  .headerboot {
+  .header {
+    position: static;
+  }
+  .header .headerboot {
     flex-direction: column;
     align-items: center;
     height: 260px;
     justify-content: stretch;
     width: 100%;
+    position: static;
   }
-  .headerboot .nombrelogo {
+  .header .headerboot .nombrelogo {
     margin: 0;
   }
-  .headerboot nav {
+  .header .headerboot nav {
     flex-direction: column;
     align-items: center;
     margin-top: 0;
